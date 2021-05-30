@@ -1,0 +1,123 @@
+.learning-history {
+  background-color: $color-scale-gray-2;
+  color: $color-scale-white;
+  display: flex;
+  flex-direction: column;
+  .section-header {
+    color: $color-scale-green-1;
+    padding: $xl-1;
+    text-align: center;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: $xl-3;
+    background-color: $color-scale-green-5;
+  }
+  .learning-history__container {
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 4rem;
+
+    .timeline {
+      width: 80%;
+      height: auto;
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: $sm-0;
+        height: 100%;
+        background-color: black;
+      }
+
+      li {
+        width: 50%;
+        position: relative;
+        padding: 20px;
+        background-color: $color-scale-green-5;
+        border-radius: $sm-2;
+        margin-bottom: $xl-3;
+
+        &::before {
+          content: "";
+          position: absolute;
+          height: $n-2;
+          width: $n-2;
+          border-radius: 50%;
+          background-color: $color-scale-gray-3;
+          top: 0px;
+        }
+        &:hover::before {
+          background-color: $color-scale-green-6;
+        }
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &:nth-child(odd) {
+          float: left;
+          clear: right;
+          transform: translateX(-60px);
+          border-radius: $n-2 0px $n-2 $n-2;
+
+          &::before {
+            transform: translate(50%, -40%);
+            right: -20px;
+          }
+        }
+        &:nth-child(even) {
+          float: right;
+          clear: left;
+          transform: translateX(60px);
+          border-radius: 0px $n-2 $n-2 $n-2;
+
+          &::before {
+            transform: translate(-50%, -40%);
+            left: -20px;
+          }
+        }
+      }
+
+      h1 {
+        font-weight: 500;
+        font-size: $n-3;
+        line-height: $n-2;
+        margin-bottom: $sm-1;
+      }
+
+      p {
+        font-size: $n-1;
+        line-height: $n-1;
+        font-weight: 300;
+      }
+
+      .date {
+        position: absolute;
+        top: -30px;
+        font-size: $n-1;
+        font-weight: 400;
+        margin-bottom: $sm-2;
+        letter-spacing: $sm-0;
+        color: $color-scale-green-6;
+      }
+      .current_learning {
+        color: $color-scale-yellow-5;
+        position: absolute;
+        top: 0;
+        left: 80%;
+        transform: translateY(15px);
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import "1_variables";
+@import "header";
+@import "landing_page";
+@import "project";
+@import "section_learning_history";
+@import "shared_style";
+@import "media_query_mobile";
+@import "media_query_tablet";
+@import "media_query_laptop";
+@import "media_query_desktop";
+@import "media_query_widescreen";
+@import "animation";
+@import "function";
+@import "mixin";
+
+* {
+  @include reset-list;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  font-weight: 300px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $color-scale-green-3;
+}

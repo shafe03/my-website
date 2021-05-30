@@ -1,0 +1,10 @@
+%transition-shared {
+  transition-property: all;
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,61 @@
+.section-landingPage {
+  background-image: url(/img/landing-1.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+
+  .landingPage__containter {
+    min-height: 100%;
+    height: 100vh;
+    padding: $xl-3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: $xl-3;
+    color: $color-scale-green-2;
+    position: relative;
+    z-index: 1;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+
+    .landingPage__containter__content {
+      text-align: center;
+      line-height: $xl-3;
+      transform: translate(0, -60%);
+      h2 {
+        font-size: $xl-3;
+        color: $color-scale-green-4;
+      }
+      p {
+        font-size: $n-3;
+        padding-top: $n-3;
+      }
+
+      .landingPage__learning__stack {
+        padding: $n-1;
+
+        i {
+          padding: $n-1;
+          &:hover {
+            color: $color-scale-green-2;
+          }
+        }
+      }
+      .landingPage__social {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: -60%;
+        top: 10%;
+        i {
+          padding: $sm-1;
+          &:hover {
+            color: $color-scale-green-2;
+          }
+        }
+      }
+    }
+  }
+}

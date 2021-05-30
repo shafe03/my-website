@@ -1,0 +1,35 @@
+.sectionProject {
+  padding: 40px;
+  background-color: $color-scale-gray-1;
+  color: $color-scale-white;
+
+  .sectionProject__container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+
+    .project__grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $color-scale-green-5;
+      border-radius: $n-2;
+
+      img {
+        border-radius: $n-1;
+        padding: 10px;
+        width: fit-content;
+      }
+
+      h3 {
+        color: $color-scale-black;
+      }
+
+      a:hover {
+        color: $color-scale-black;
+      }
+    }
+  }
+}
