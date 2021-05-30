@@ -7,6 +7,7 @@
   position: relative;
 
   .navbar__link {
+    font-size: $font-size--3;
     color: lighten($color-scale-white, 40%);
     padding: $padding-4;
     &:hover {

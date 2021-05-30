@@ -1,7 +1,7 @@
 .section-landingPage {
-  background-image: url(/img/landing-1.jpg);
   position: relative;
   background-position: center;
+  background-image: url(/img/landing-1.jpg);
   background-size: cover;
   z-index: 0;
   background-color: rgba($color: #000000, $alpha: 0.3);
@@ -23,8 +23,10 @@
     .landingPage__containter__content {
       text-align: center;
       line-height: $xl-3;
-      transform: translate(0, -60%);
-      h2 {
+      transform: translate(0, -50%);
+      display: flex;
+      flex-direction: column;
+      h1 {
         font-size: $xl-3;
         color: $color-scale-green-4;
       }
@@ -32,14 +34,12 @@
         font-size: $n-3;
         padding-top: $n-3;
       }
-
       .landingPage__learning__stack {
-        padding: $n-1;
-
-        i {
-          padding: $n-1;
+        padding: $xl-2;
+        a {
+          padding: 15px;
           &:hover {
-            color: $color-scale-green-2;
+            color: $color-scale-green-4;
           }
         }
       }
@@ -47,12 +47,12 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        right: -60%;
-        top: 10%;
-        i {
-          padding: $sm-1;
+        right: -55%;
+        top: 30%;
+        a {
+          padding: 0px;
           &:hover {
-            color: $color-scale-green-2;
+            color: $color-scale-green-5;
           }
         }
       }

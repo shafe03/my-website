@@ -29,4 +29,7 @@ ul {
 a {
   text-decoration: none;
   color: $color-scale-green-3;
+  &:hover {
+    color: darken($color-scale-green-3, 20%);
+  }
 }

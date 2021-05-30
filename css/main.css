@@ -10,6 +10,7 @@
 }
 
 .header .navbar__link {
+  font-size: 1rem;
   color: white;
   padding: 1.25rem;
 }
@@ -55,9 +56,9 @@
 }
 
 .section-landingPage {
-  background-image: url(/img/landing-1.jpg);
   position: relative;
   background-position: center;
+  background-image: url(/img/landing-1.jpg);
   background-size: cover;
   z-index: 0;
   background-color: rgba(0, 0, 0, 0.3);
@@ -90,11 +91,18 @@
 .section-landingPage .landingPage__containter .landingPage__containter__content {
   text-align: center;
   line-height: 40px;
-  -webkit-transform: translate(0, -60%);
-          transform: translate(0, -60%);
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.section-landingPage .landingPage__containter .landingPage__containter__content h2 {
+.section-landingPage .landingPage__containter .landingPage__containter__content h1 {
   font-size: 40px;
   color: #34d058;
 }
@@ -105,15 +113,15 @@
 }
 
 .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack {
-  padding: 16px;
+  padding: 35px;
 }
 
-.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack i {
-  padding: 16px;
+.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack a {
+  padding: 15px;
 }
 
-.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack i:hover {
-  color: #bef5cb;
+.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack a:hover {
+  color: #34d058;
 }
 
 .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social {
@@ -125,65 +133,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  right: -60%;
-  top: 10%;
+  right: -55%;
+  top: 30%;
 }
 
-.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social i {
-  padding: 8px;
+.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social a {
+  padding: 0px;
 }
 
-.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social i:hover {
-  color: #bef5cb;
-}
-
-.sectionProject {
-  padding: 40px;
-  background-color: #f6f8fa;
-  color: #fff;
-}
-
-.sectionProject .sectionProject__container {
-  padding: 20px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
-  grid-gap: 20px;
-}
-
-.sectionProject .sectionProject__container .project__grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #28a745;
-  border-radius: 20px;
-}
-
-.sectionProject .sectionProject__container .project__grid img {
-  border-radius: 16px;
-  padding: 10px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.sectionProject .sectionProject__container .project__grid h3 {
-  color: #1b1f23;
-}
-
-.sectionProject .sectionProject__container .project__grid a:hover {
-  color: #1b1f23;
+.section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social a:hover {
+  color: #28a745;
 }
 
 .learning-history {
@@ -354,7 +313,6 @@
 @media only screen and (max-width: 480px) {
   .header {
     background-color: #222629;
-    margin: auto;
   }
   .header .logo {
     padding-top: 20px;
@@ -369,7 +327,7 @@
     position: relative;
     background-color: #222629;
     height: 100vh;
-    padding-top: 20%;
+    padding-top: 30%;
     -webkit-animation: slide 1s ease-in;
             animation: slide 1s ease-in;
   }
@@ -377,7 +335,7 @@
     padding: 0.5rem;
   }
   .header .navbar .navbar__link {
-    color: #14a76c;
+    color: #86c232;
   }
   .header .hamburgerMenu {
     padding-top: inherit;
@@ -409,6 +367,83 @@
   .header .hamburgerMenu .change:nth-child(3) {
     -webkit-transform: rotate(-45deg) translate(6px, -8px);
             transform: rotate(-45deg) translate(6px, -8px);
+  }
+  .section-landingPage {
+    position: relative;
+    background-position: center;
+    background-image: url(/img/landing-1.jpg);
+    background-size: cover;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .section-landingPage .landingPage__containter {
+    min-height: 100%;
+    height: 100vh;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    line-height: 40px;
+    color: #bef5cb;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content {
+    text-align: center;
+    line-height: 40px;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content h1 {
+    font-size: 30px;
+    color: #34d058;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content p {
+    font-size: 20px;
+    padding-top: 24px;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack {
+    padding: 35px;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack a {
+    padding: 1px;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__learning__stack a:hover {
+    color: #34d058;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social {
+    position: absolute;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    right: 0%;
+    top: 30%;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social a {
+    padding: 0px;
+  }
+  .section-landingPage .landingPage__containter .landingPage__containter__content .landingPage__social a:hover {
+    color: #28a745;
   }
   .learning-history {
     background-color: #24292e;
@@ -503,6 +538,76 @@
     -webkit-transform: translateY(15px);
             transform: translateY(15px);
   }
+  .sectionProject {
+    padding: 5px;
+    background-color: #f6f8fa;
+    color: #fff;
+  }
+  .sectionProject .sectionProject__container {
+    padding: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+  .sectionProject .sectionProject__container .project__grid {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #0366d6;
+    border-radius: 20px;
+  }
+  .sectionProject .sectionProject__container .project__grid img {
+    border-radius: 16px;
+    padding: 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .sectionProject .sectionProject__container .project__grid p {
+    text-align: center;
+  }
+  .sectionProject .sectionProject__container .project__grid h3 {
+    color: #1b1f23;
+  }
+  .sectionProject .sectionProject__container .project__grid a:hover {
+    color: #1b1f23;
+  }
+  .sectionProject .sectionProject__container .project__grid .used__language {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+  }
+  .sectionProject .sectionProject__container .project__grid .used__language a {
+    padding: 10px;
+  }
+  .sectionProject .sectionProject__container .project__grid .demo__and__sourceCode {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @-webkit-keyframes slide {
@@ -541,5 +646,9 @@ ul {
 a {
   text-decoration: none;
   color: #85e89d;
+}
+
+a:hover {
+  color: #2fd858;
 }
 /*# sourceMappingURL=main.css.map */
