@@ -1,18 +1,33 @@
-@import "1_variables";
-@import "mixin";
-@import "shared_style";
-@import "navbar";
-@import "landing_page";
-@import "project";
-@import "section_learning_history";
-@import "animation";
-@import "function";
-@import "media_query_mobile";
-@import "media_query_tablet";
-@import "media_query_laptop";
-@import "media_query_desktop";
-@import "media_query_widescreen";
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&family=Russo+One&display=swap");
+
+@import "0_animation";
+@import "0_function";
+@import "0_mixin";
+@import "0_shared_style";
+@import "0_variables";
+@import "1.1_navbar";
+@import "1.2_landing";
+@import "2_project";
+@import "3_section_learning_history";
+@import "4_challenges";
+@import "5_about_me";
+@import "6_contact";
+@import "7.1_media_query_mobile";
+@import "7.2_media_query_tablet";
+@import "7.3_media_query_laptop";
+@import "7.4_media_query_desktop";
 
 * {
-  @include reset-list;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Rokkitt", serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }

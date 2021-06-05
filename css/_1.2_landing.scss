@@ -1,0 +1,91 @@
+.section-1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: $color-scale-white;
+  overflow: hidden;
+
+  .section-1-content {
+    font-size: 8rem;
+    font-family: "Russo One", sans-serif;
+    position: absolute;
+    top: 10vw;
+    left: 50%;
+    transform: translate(-50%);
+    text-shadow: 0.3rem 0.3rem 0.3rem $color-scale-green-2;
+    color: $color-scale-green-4;
+    background-color: rgba($color-scale-gray-0, $alpha: 0.2);
+    width: 90rem;
+    text-align: center;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.8rem;
+    opacity: 0.9;
+    z-index: 1;
+
+    & h1 {
+      font-weight: 700;
+    }
+
+    & h3 {
+      font-size: 6rem;
+    }
+  }
+
+  & .floating-bg {
+    width: 150vw;
+    height: 150vw;
+    background-color: rgba($color-scale-green-4, $alpha: 0.8);
+    position: absolute;
+    top: 22vw;
+    left: calc(50% - 75vw);
+    border-radius: 45%;
+    animation: rotate 30s infinite;
+
+    &::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      background-color: rgba($color-scale-green-4, $alpha: 0.2);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 40%;
+    }
+  }
+
+  .programming-language {
+    position: absolute;
+    top: 27vw;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0.8;
+    display: flex;
+
+    & i {
+      padding: 2rem;
+      color: $color-scale-gray-1;
+
+      &:hover {
+        color: $color-scale-green-6;
+      }
+    }
+  }
+
+  .landing-page-social {
+    position: absolute;
+    top: 35vw;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0.8;
+    display: flex;
+
+    & i {
+      padding-right: 2rem;
+      color: rgba($color-scale-gray-0, $alpha: 0.7);
+      &:hover {
+        opacity: 1;
+        color: $color-scale-gray-5;
+      }
+    }
+  }
+}
