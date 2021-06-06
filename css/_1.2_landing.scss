@@ -39,7 +39,7 @@
     top: 22vw;
     left: calc(50% - 75vw);
     border-radius: 45%;
-    animation: rotate 30s infinite;
+    animation: rotate 30s infinite, slide_Top 1s linear;
 
     &::before {
       content: "";
@@ -60,6 +60,8 @@
     transform: translate(-50%);
     opacity: 0.8;
     display: flex;
+    animation: delay 3s ease-in;
+    transition: animation 3s;
 
     & i {
       padding: 2rem;
@@ -73,11 +75,13 @@
 
   .landing-page-social {
     position: absolute;
-    top: 35vw;
+    top: 32vw;
     left: 50%;
     transform: translate(-50%);
     opacity: 0.8;
     display: flex;
+    animation: delay 3s ease-in;
+    transition: animation 3s;
 
     & i {
       padding-right: 2rem;

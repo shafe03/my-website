@@ -4,5 +4,29 @@
   }
   100% {
     transform: rotate(360deg);
+    transition: rotate 3s;
+  }
+}
+
+@keyframes slide_Top {
+  0% {
+    top: 100vw;
+  }
+  100% {
+    top: 22vw;
+  }
+}
+
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0.8;
   }
 }

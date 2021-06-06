@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1150px) {
+  .section-1 {
+    .section-1-content {
+      font-size: 4rem !important;
+      top: 10vw;
+      width: 70rem;
+
+      & h3 {
+        font-size: 3rem !important;
+      }
+    }
+
+    & .floating-bg {
+      top: 32vw !important;
+    }
+
+    .programming-language {
+      top: 32vw;
+
+      & i {
+        font-size: 3rem !important;
+      }
+    }
+
+    .landing-page-social {
+      top: 39vw;
+
+      & i {
+        font-size: 2rem !important;
+      }
+    }
+  }
+}
