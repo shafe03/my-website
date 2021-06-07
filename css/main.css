@@ -47,7 +47,7 @@
     top: -170vw;
   }
   100% {
-    top: -125vw;
+    top: -140vw;
   }
 }
 
@@ -56,7 +56,7 @@
     top: -170vw;
   }
   100% {
-    top: -125vw;
+    top: -140vw;
   }
 }
 
@@ -337,6 +337,109 @@
   color: #586069;
 }
 
+.section-3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5rem;
+}
+
+.section-3 .section-heading {
+  font-size: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fafbfc;
+  text-align: center;
+  opacity: 1;
+  text-shadow: 2rem 2rem 4rem #9add9d;
+  padding: 5rem 0;
+  z-index: 2;
+}
+
+.section-3 .floating-bg {
+  width: 150vw;
+  height: 150vw;
+  background-color: rgba(52, 208, 88, 0.8);
+  position: absolute;
+  top: -140vw;
+  left: calc(50% - 75vw);
+  border-radius: 45%;
+  -webkit-animation: rotate 30s infinite, slide_bottom 1s ease-in;
+          animation: rotate 30s infinite, slide_bottom 1s ease-in;
+}
+
+.section-3 .floating-bg::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(52, 208, 88, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 40%;
+}
+
+.section-3 ul {
+  font-size: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.section-3 ul li {
+  -webkit-box-shadow: 1rem 1rem 3rem #c8e1ff;
+          box-shadow: 1rem 1rem 3rem #c8e1ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  margin-right: 10rem;
+  color: #fff;
+  background-color: #79b8ff;
+  padding: 5rem;
+  cursor: pointer;
+}
+
+.section-3 ul li:hover {
+  background-color: #2188ff;
+}
+
+.section-3 ul .active {
+  background-color: #2188ff;
+}
+
+.section-3 .hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 1400px) {
   .section-1 .section-1-content {
     font-size: 6rem;
@@ -388,6 +491,22 @@
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    opacity: 0.8;
+  }
+  .section-2 .project-card-container .project-card:hover {
+    -webkit-transform: rotateX(0deg) scale(1) translateY(-1rem);
+            transform: rotateX(0deg) scale(1) translateY(-1rem);
+    -webkit-box-shadow: 1rem 1rem 2rem #000, -0.75rem -0.75rem 1.5rem #000;
+            box-shadow: 1rem 1rem 2rem #000, -0.75rem -0.75rem 1.5rem #000;
+    z-index: 3;
+    background-color: #dcffe4;
+    opacity: 1;
+  }
+  .section-2 .project-card-container .project-card:hover .project-img {
+    -webkit-box-shadow: 1rem 1rem 2rem #85e89d;
+            box-shadow: 1rem 1rem 2rem #85e89d;
+    -webkit-transform: rotateY(0deg) scale(1.1);
+            transform: rotateY(0deg) scale(1.1);
   }
   .section-2 .project-card-container .project-card .btn-project-details {
     right: 3%;
@@ -406,20 +525,6 @@
     -webkit-box-shadow: 0.2rem 0.2rem 0.4rem #000;
             box-shadow: 0.2rem 0.2rem 0.4rem #000;
     background-color: #e67f7f;
-  }
-  .section-2 .project-card-container .project-card:hover {
-    -webkit-transform: rotateX(0deg) scale(1) translateY(-1rem);
-            transform: rotateX(0deg) scale(1) translateY(-1rem);
-    -webkit-box-shadow: 1rem 1rem 2rem #000, -0.75rem -0.75rem 1.5rem #000;
-            box-shadow: 1rem 1rem 2rem #000, -0.75rem -0.75rem 1.5rem #000;
-    z-index: 3;
-    background-color: #dcffe4;
-  }
-  .section-2 .project-card-container .project-card:hover .project-img {
-    -webkit-box-shadow: 1rem 1rem 2rem #85e89d;
-            box-shadow: 1rem 1rem 2rem #85e89d;
-    -webkit-transform: rotateY(0deg) scale(1.1);
-            transform: rotateY(0deg) scale(1.1);
   }
   .section-2 .project-card-container .project-card .project-img {
     width: 25rem;
