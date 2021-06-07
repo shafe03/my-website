@@ -30,4 +30,98 @@
       }
     }
   }
+
+  .section-2 {
+    height: auto;
+    padding: 0rem 1rem;
+
+    & .section-heading {
+      font-size: 5rem;
+    }
+
+    & .project-card-container {
+      flex-wrap: wrap;
+      perspective: 70rem;
+
+      & .project-card {
+        width: 30rem;
+        position: relative;
+        box-shadow: 1rem 1rem 1rem $color-scale-green-1;
+        perspective: 40rem;
+        transition: transform 0.5s ease-in;
+
+        .btn-project-details {
+          right: 3%;
+          bottom: 3%;
+          height: 2rem;
+          width: 2rem;
+          background-color: rgb(127, 230, 179);
+          position: absolute;
+          z-index: 20;
+          border-radius: 20%;
+          box-shadow: 0.2rem 0.2rem 0.4rem $color-scale-green-5;
+          cursor: pointer;
+
+          &.change {
+            background-color: rgb(230, 127, 127);
+          }
+        }
+
+        &:hover {
+          transform: rotateX(0deg) scale(1) translateY(-1rem);
+          box-shadow: 1rem 1rem 2rem #000, -0.75rem -0.75rem 1.5rem #000;
+          z-index: 3;
+          background-color: $color-scale-green-1;
+
+          & .project-img {
+            box-shadow: 1rem 1rem 2rem $color-scale-green-3;
+            transform: rotateY(0deg) scale(1.1);
+          }
+        }
+
+        & .project-img {
+          width: 25rem;
+          height: 25rem;
+          box-shadow: 1rem 1rem 1.5rem #aaa, -0.75rem -0.75rem 0.75rem #eee;
+          transform: rotateY(10deg);
+          transition: transform 0.3s ease-in;
+        }
+        .project-card-heading {
+          font-size: 2rem;
+        }
+
+        .project-card-description {
+          padding: 0.5rem 2rem;
+          font-size: 1.8rem;
+          text-align: justify;
+          position: absolute;
+          padding: 3rem 4rem;
+          background-color: rgba($color-scale-green-9, $alpha: 0.8);
+          color: $color-scale-white;
+          height: 100%;
+          border-radius: 2%;
+          &.change {
+            display: none;
+          }
+        }
+
+        .used-language {
+          padding: 0;
+          top: 25rem;
+          padding: 2rem;
+          flex-wrap: wrap;
+          position: absolute;
+          z-index: 10;
+
+          & i {
+            color: $color-scale-green-1;
+          }
+        }
+        .project-card-links {
+          padding-top: 1rem;
+          font-size: 0.5rem;
+        }
+      }
+    }
+  }
 }
