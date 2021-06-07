@@ -16,6 +16,14 @@
     top: 22vw;
   }
 }
+@keyframes slide_bottom {
+  0% {
+    top: -170vw;
+  }
+  100% {
+    top: -125vw;
+  }
+}
 
 @keyframes delay {
   0% {

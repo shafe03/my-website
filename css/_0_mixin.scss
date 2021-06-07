@@ -1,1 +1,10 @@
-
+@mixin section-header {
+  font-size: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $color-scale-green-4;
+  text-align: center;
+  opacity: 1;
+  text-shadow: 2rem 2rem 4rem #aaa;
+  padding: 5rem 0;
+}
