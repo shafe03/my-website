@@ -295,6 +295,25 @@
   }
 }
 
+@media only screen and (max-width: 350px) {
+  html {
+    font-size: 40% !important;
+  }
+  .section-1 .section-1-content {
+    height: auto;
+    top: 35vw;
+  }
+  .section-1 .floating-bg {
+    top: 50rem;
+  }
+  .section-1 .programming-language {
+    top: 60rem;
+  }
+  .section-1 .landing-page-social {
+    top: 65rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
