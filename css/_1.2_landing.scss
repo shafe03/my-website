@@ -39,7 +39,7 @@
     top: 22vw;
     left: calc(50% - 75vw);
     border-radius: 45%;
-    animation: rotate 30s infinite, slide_Top 1s linear;
+    animation: rotate 30s infinite, slide_Top 1s ease-in;
 
     &::before {
       content: "";

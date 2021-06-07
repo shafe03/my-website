@@ -1,11 +1,23 @@
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 750px) {
   html {
     font-size: 50% !important;
   }
 
   .section-1 {
-    .floating-bg {
-      top: 60vw !important;
+    .section-1-content {
+      top: 15vw;
+    }
+
+    & .floating-bg {
+      top: 45vw;
+    }
+
+    .programming-language {
+      top: 55vw;
+    }
+
+    .landing-page-social {
+      top: 60vw;
     }
   }
 }

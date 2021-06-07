@@ -1,33 +1,31 @@
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1150px) {
   .section-1 {
     .section-1-content {
-      font-size: 3rem;
+      font-size: 4rem;
       top: 10vw;
       width: 70rem;
 
       & h3 {
-        font-size: 2rem;
+        font-size: 3rem;
       }
     }
 
     & .floating-bg {
-      top: 30vw;
+      top: 28vw;
     }
 
     .programming-language {
-      top: 38vw;
+      top: 32vw;
 
       & i {
-        padding: 1rem;
-        font-size: 2.4rem;
+        font-size: 3rem;
       }
     }
 
     .landing-page-social {
-      top: 44vw;
+      top: 40vw;
 
       & i {
-        padding: 1rem;
         font-size: 2rem;
       }
     }
