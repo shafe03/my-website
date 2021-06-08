@@ -1,5 +1,5 @@
 .section-2 {
-  height: 100vh;
+  // height: 100vh;
   width: 100%;
   position: relative;
   background-color: $color-scale-white;
@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 10rem;
 
   & .floating-bg {
     width: 150vw;
@@ -39,6 +40,8 @@
     justify-content: space-evenly;
     align-items: center;
     height: 70%;
+    flex-wrap: wrap;
+    perspective: 70rem;
 
     & .project-card {
       display: flex;
@@ -52,14 +55,32 @@
       background-color: $color-scale-green-2;
       border-radius: 1rem;
       width: 40rem;
+      box-shadow: 1rem 1rem 1rem $color-scale-green-1;
+      perspective: 40rem;
+      transition: transform 0.5s ease-in;
+      opacity: 0.8;
+      &:hover {
+        transform: rotateX(0deg) scale(1) translateY(-1rem);
+        box-shadow: 1rem 1rem 2rem #000, -0.75rem -0.75rem 1.5rem #000;
+        z-index: 3;
+        background-color: $color-scale-green-1;
+        opacity: 1;
+
+        & .project-img {
+          box-shadow: 1rem 1rem 2rem $color-scale-green-3;
+          transform: rotateY(0deg) scale(1.1);
+          transition: transform 0.6s ease-in;
+        }
+      }
 
       & .project-img {
         object-fit: cover;
         border-radius: 0.5rem;
         width: 35rem;
         height: 30rem;
+        transform: rotateY(10deg);
+        transition: transform 0.3s ease-in;
       }
-
       .project-card-heading {
         margin-top: 2rem;
         font-family: "Russo One", sans-serif;
@@ -67,34 +88,72 @@
         color: $color-scale-green-4;
       }
 
-      .project-card-description {
+      .btn-project-details {
+        right: 3%;
+        bottom: 3%;
+        height: 2rem;
+        width: 2rem;
+        background-color: rgb(127, 230, 179);
+        position: absolute;
+        z-index: 20;
+        border-radius: 20%;
+        box-shadow: 0.2rem 0.2rem 0.4rem $color-scale-green-5;
+        cursor: pointer;
+
+        &.change {
+          box-shadow: 0.2rem 0.2rem 0.4rem #000;
+          background-color: rgb(230, 127, 127);
+        }
+      }
+
+      .project-details {
         padding: 0.5rem 2rem;
-        font-size: 1.8rem;
-        text-align: justify;
-      }
+        font-size: 3rem;
+        text-align: center;
+        position: absolute;
+        padding: 2rem 2rem;
+        background-color: rgba($color-scale-green-5, $alpha: 0.9);
+        color: $color-scale-white;
+        height: 100%;
+        border-radius: 2%;
+        transition: all 0.5s ease-in;
 
-      .used-language {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        &.change {
+          transform: scale(0);
+          border-radius: 100%;
+          transform-origin: bottom right;
+        }
 
-        & i {
-          color: $color-scale-green-5;
-          padding: 0.5rem;
+        & .used-language {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+          top: 35rem;
+          padding: 2rem;
+          flex-wrap: wrap;
+          position: absolute;
+          z-index: 10;
+          font-size: 1rem;
+
+          & i {
+            color: $color-scale-green-2;
+            padding: 0.5rem;
+          }
         }
       }
+    }
+    .project-card-links {
+      padding-top: 2rem;
+      & a {
+        padding-top: 2rem;
+      }
+      & .card-link__live-demo {
+        color: $color-scale-blue-3;
+      }
 
-      .project-card-links {
-        & a {
-          padding: 0.5rem;
-        }
-        & .card-link__live-demo {
-          color: $color-scale-blue-3;
-        }
-
-        & .card-link__source-code {
-          color: $color-scale-gray-6;
-        }
+      & .card-link__source-code {
+        color: $color-scale-gray-6;
       }
     }
   }

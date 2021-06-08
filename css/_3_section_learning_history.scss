@@ -9,6 +9,16 @@
   justify-content: space-between;
   padding: 5rem;
 
+  .highlight {
+    background-color: $color-scale-green-3;
+  }
+
+  .note {
+    font-style: italic;
+    font-size: 3rem;
+    background-color: $color-scale-yellow-3;
+  }
+
   .section-heading {
     @include section-header;
   }
@@ -74,8 +84,8 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-
       font-size: 5rem;
+
       h2 {
         font-size: 8rem;
         font-weight: 600;

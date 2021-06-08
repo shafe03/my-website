@@ -1,0 +1,92 @@
+.section-4 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: $color-scale-white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5rem;
+  margin-bottom: 5rem;
+
+  .section-heading {
+    @include section-header;
+  }
+
+  .floating-bg {
+    width: 150vw;
+    height: 150vw;
+    background-color: rgba($color-scale-green-4, $alpha: 0.8);
+    position: absolute;
+    top: -140vw;
+    left: calc(50% - 75vw);
+    border-radius: 45%;
+    animation: rotate 30s infinite, slide_bottom 1s ease-in;
+
+    &::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      background-color: rgba($color-scale-green-4, $alpha: 0.2);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 40%;
+    }
+  }
+
+  ul {
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%);
+    & li {
+      box-shadow: 1rem 1rem 3rem $color-scale-green-2;
+      font-weight: 600;
+      text-transform: uppercase;
+      border-radius: 5rem;
+      margin: 1rem;
+      color: $color-scale-white;
+      background-color: $color-scale-green-3;
+      padding: 4rem;
+      cursor: pointer;
+      &:hover {
+        background-color: $color-scale-green-4;
+      }
+    }
+    & .active {
+      background-color: $color-scale-green-4;
+    }
+  }
+
+  .hidden {
+    height: 70%;
+    width: 50%;
+    display: none;
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+
+      font-size: 5rem;
+      h2 {
+        font-size: 8rem;
+        font-weight: 600;
+        padding: 2rem;
+      }
+
+      p {
+        padding: 0 4rem;
+      }
+    }
+  }
+}
