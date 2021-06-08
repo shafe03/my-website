@@ -33,3 +33,24 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+.wb-body {
+  background-color: $color-scale-white;
+  font-size: 4rem;
+  padding: 1rem 10rem;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+    color: $color-scale-green-5;
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
