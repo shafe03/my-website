@@ -42,6 +42,9 @@
     height: 70%;
     flex-wrap: wrap;
     perspective: 70rem;
+    padding: 10rem 2rem;
+    position: relative;
+    z-index: 20;
 
     & .project-card {
       display: flex;
@@ -61,7 +64,8 @@
       opacity: 0.8;
       &:hover {
         transform: rotateX(0deg) scale(1) translateY(-1rem);
-        box-shadow: 1rem 1rem 2rem #000, -0.75rem -0.75rem 1.5rem #000;
+        box-shadow: 1rem 1rem 2rem $color-scale-green-1,
+          -0.75rem -0.75rem 1.5rem $color-scale-green-1;
         z-index: 3;
         background-color: $color-scale-green-1;
         opacity: 1;
@@ -154,6 +158,10 @@
 
       & .card-link__source-code {
         color: $color-scale-gray-6;
+      }
+
+      & i {
+        margin: 1rem;
       }
     }
   }

@@ -1,0 +1,30 @@
+.wb-body {
+  background-color: $color-scale-white;
+  font-size: 3rem;
+  padding: 1rem 10rem;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+    color: $color-scale-green-5;
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+.highlight {
+  background-color: $color-scale-green-3;
+}
+
+.note {
+  font-style: italic;
+  font-size: 3rem;
+  background-color: $color-scale-yellow-3;
+}

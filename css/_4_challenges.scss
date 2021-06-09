@@ -39,7 +39,7 @@
   ul {
     font-size: 4rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
@@ -88,5 +88,17 @@
         padding: 0 4rem;
       }
     }
+  }
+
+  & .section-bottom-bg {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    clip-path: polygon(0 90%, 100% 78%, 100% 100%, 0% 100%);
+    background-color: $color-scale-green-5;
+    animation: 0;
+    z-index: 0;
   }
 }
