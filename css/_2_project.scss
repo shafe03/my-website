@@ -41,10 +41,9 @@
     height: 70%;
     flex-wrap: wrap;
     perspective: 70rem;
-    padding: 20rem 2rem;
+    padding: 10rem 5rem 30rem 5rem;
     position: relative;
-    z-index: 20;
-
+    z-index: 2;
     & .project-card {
       display: flex;
       flex-direction: column;

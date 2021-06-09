@@ -88,6 +88,8 @@
   background-color: #fff;
   font-size: 3rem;
   padding: 1rem 10rem;
+  position: absolute;
+  z-index: 10000;
 }
 
 .wb-body h1,
@@ -296,9 +298,9 @@
       flex-wrap: wrap;
   -webkit-perspective: 70rem;
           perspective: 70rem;
-  padding: 20rem 2rem;
+  padding: 10rem 5rem 30rem 5rem;
   position: relative;
-  z-index: 20;
+  z-index: 2;
 }
 
 .section-2 .project-card-container .project-card {
@@ -946,6 +948,9 @@
     padding-top: 1rem;
     margin: 0.5rem;
   }
+  .section-2 .section-bottom-bg {
+    top: 88vw;
+  }
   .section-3 {
     padding: 1rem;
   }
@@ -963,6 +968,17 @@
     padding: 0 5rem;
     font-size: 1.5rem;
   }
+  .section-3 ul li {
+    -webkit-box-shadow: 1rem 1rem 1.5rem #777;
+            box-shadow: 1rem 1rem 1.5rem #777;
+  }
+  .section-3 ul li:hover {
+    -webkit-box-shadow: 1rem 1rem 1.5rem #34d058;
+            box-shadow: 1rem 1rem 1.5rem #34d058;
+  }
+  .section-3 .section-bottom-bg {
+    top: 30vw;
+  }
   .section-4 {
     padding: 1rem;
   }
@@ -976,12 +992,22 @@
   .section-4 ul {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    top: 25rem;
+    top: 20rem;
     padding: 0 2rem;
     font-size: 1.5rem;
   }
   .section-4 ul li {
+    -webkit-box-shadow: 1rem 1rem 1.5rem #777;
+            box-shadow: 1rem 1rem 1.5rem #777;
+    background-color: #85e89d;
     padding: 2rem;
+  }
+  .section-4 ul li:hover {
+    -webkit-box-shadow: 1rem 1rem 1.5rem #34d058;
+            box-shadow: 1rem 1rem 1.5rem #34d058;
+  }
+  .section-4 .section-bottom-bg {
+    top: 30vw;
   }
 }
 

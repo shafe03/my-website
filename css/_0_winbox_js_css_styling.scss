@@ -2,6 +2,8 @@
   background-color: $color-scale-white;
   font-size: 3rem;
   padding: 1rem 10rem;
+  position: absolute;
+  z-index: 10000;
 
   h1,
   h2,
