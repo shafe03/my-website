@@ -1255,6 +1255,56 @@
   .section-4 .section-bottom-bg {
     top: 30vw;
   }
+  .section-5 .section-heading {
+    padding: 0 0;
+    font-size: 5rem;
+  }
+  .section-5 .floating-bg {
+    top: -135vw;
+  }
+  .section-5 .aboutMe-content img {
+    height: 200px;
+    width: 200px;
+  }
+  .section-5 .aboutMe-content article {
+    font-size: 2rem;
+  }
+  .section-5 .section-bottom-bg {
+    top: 30vw;
+  }
+  .section-6 .section-heading {
+    padding: 0 0;
+    font-size: 5rem;
+  }
+  .section-6 .contact-section-main .contact-social {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+    text-align: center;
+  }
+  .section-6 .contact-section-main .contact-social h2 {
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .section-6 .contact-section-main .contact-social i {
+    color: #34d058;
+    padding: 1rem;
+    font-size: 5rem;
+  }
+  .section-6 .contact-section-main .contact-social i:hover {
+    color: #85e89d;
+  }
+  .section-6 .floating-bg {
+    top: -135vw;
+  }
+  .section-6 .section-bottom-bg {
+    top: 30vw;
+  }
+  .section-6 footer {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
