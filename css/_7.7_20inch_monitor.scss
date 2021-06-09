@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1600px) and (min-height: 1000px) {
+  // common styling
+  .section-1 {
+    .floating-bg {
+      top: 48vw;
+    }
+    .programming-language {
+      top: 55vw;
+    }
+    .landing-page-social {
+      top: 64vw;
+    }
+  }
+
+  .section-2 {
+    .section-heading {
+      font-size: 6.5rem;
+    }
+    .section-bottom-bg {
+      top: 88vw;
+    }
+  }
+
+  .section-3 {
+    .section-heading {
+      font-size: 6.5rem;
+    }
+
+    .section-bottom-bg {
+      top: 65vw;
+    }
+  }
+  .section-4 {
+    .section-heading {
+      font-size: 6.5rem;
+    }
+
+    ul {
+      top: 22%;
+      font-size: 3rem;
+    }
+
+    .section-bottom-bg {
+      top: 65vw;
+    }
+  }
+
+  .section-5 {
+    .section-heading {
+      font-size: 6.5rem;
+    }
+    .section-bottom-bg {
+      top: 65vw;
+    }
+    .aboutMe-content {
+      img {
+        height: 350px;
+        width: 350px;
+      }
+      article {
+        font-size: 3rem;
+      }
+    }
+  }
+  .section-6 {
+    .section-heading {
+      font-size: 6.5rem;
+    }
+    .section-bottom-bg {
+      top: 60vw;
+    }
+  }
+}

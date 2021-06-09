@@ -69,16 +69,17 @@
     padding: 0rem 1rem;
 
     & .section-heading {
-      font-size: 5rem;
+      font-size: 4rem;
     }
 
     & .floating-bg {
-      top: -135vw;
+      top: -142vw;
     }
 
     & .project-card-container {
       flex-wrap: wrap;
       perspective: 70rem;
+      padding: 5rem 2.5rem 15rem 2.5rem;
 
       & .project-card {
         width: 30rem;
@@ -157,7 +158,7 @@
       }
     }
     .section-bottom-bg {
-      top: 88vw;
+      top: 80vw;
     }
   }
   // end of section 2
@@ -167,10 +168,10 @@
     padding: 1rem;
     & .section-heading {
       padding: 3rem 0;
-      font-size: 5rem;
+      font-size: 4rem;
     }
     & .floating-bg {
-      top: -135vw;
+      top: -142vw;
     }
 
     ul {
@@ -180,7 +181,7 @@
       font-size: 1.5rem;
 
       & li {
-        box-shadow: 1rem 1rem 1.5rem #777;
+        box-shadow: 1rem 1rem 3rem $color-scale-green-2;
 
         &:hover {
           box-shadow: 1rem 1rem 1.5rem $color-scale-green-4;
@@ -188,7 +189,7 @@
       }
     }
     .section-bottom-bg {
-      top: 30vw;
+      top: 38vw;
     }
   }
   //End of section 3
@@ -198,10 +199,10 @@
     padding: 1rem;
     & .section-heading {
       padding: 5rem 0;
-      font-size: 5rem;
+      font-size: 4rem;
     }
     & .floating-bg {
-      top: -135vw;
+      top: -142vw;
     }
 
     ul {
@@ -221,7 +222,7 @@
       }
     }
     .section-bottom-bg {
-      top: 30vw;
+      top: 38vw;
     }
   }
   // End of section 4
@@ -230,24 +231,26 @@
   .section-5 {
     .section-heading {
       padding: 0 0;
-      font-size: 5rem;
+      font-size: 4rem;
     }
 
     .floating-bg {
-      top: -135vw;
+      top: -142vw;
     }
     .aboutMe-content {
       img {
         height: 200px;
         width: 200px;
+        transform: translate(70%, 5%);
       }
 
       & article {
+        padding: 0 10rem;
         font-size: 2rem;
       }
     }
     .section-bottom-bg {
-      top: 30vw;
+      top: 38vw;
     }
   }
   // End of section 5
@@ -256,7 +259,7 @@
   .section-6 {
     .section-heading {
       padding: 0 0;
-      font-size: 5rem;
+      font-size: 4rem;
     }
 
     .contact-section-main {
@@ -282,11 +285,11 @@
     }
 
     .floating-bg {
-      top: -135vw;
+      top: -142vw;
     }
 
     .section-bottom-bg {
-      top: 30vw;
+      top: 38vw;
     }
     footer {
       position: relative;

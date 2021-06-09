@@ -584,6 +584,8 @@
 
 .section-3 ul li:hover {
   background-color: #34d058;
+  -webkit-box-shadow: 1rem 1rem 1.5rem #34d058;
+          box-shadow: 1rem 1rem 1.5rem #34d058;
 }
 
 .section-3 ul .active {
@@ -739,6 +741,8 @@
 
 .section-4 ul li:hover {
   background-color: #34d058;
+  -webkit-box-shadow: 1rem 1rem 1.5rem #34d058;
+          box-shadow: 1rem 1rem 1.5rem #34d058;
 }
 
 .section-4 ul .active {
@@ -1047,6 +1051,112 @@
   font-weight: 600;
 }
 
+@media only screen and (max-width: 1920px) and (max-height: 1080px) {
+  .section-1 .floating-bg {
+    top: 40vw;
+  }
+  .section-1 .programming-language {
+    top: 43vw;
+  }
+  .section-1 .landing-page-social {
+    top: 50vw;
+  }
+  .section-2 .section-heading {
+    font-size: 7rem;
+  }
+  .section-2 .section-bottom-bg {
+    top: 72vw;
+  }
+  .section-3 .section-heading {
+    font-size: 7rem;
+  }
+  .section-3 .section-bottom-bg {
+    top: 46vw;
+  }
+  .section-4 .section-heading {
+    font-size: 7rem;
+  }
+  .section-4 ul {
+    top: 25%;
+    font-size: 3.5rem;
+  }
+  .section-4 .section-bottom-bg {
+    top: 46vw;
+  }
+  .section-5 .section-heading {
+    font-size: 7rem;
+  }
+  .section-5 .section-bottom-bg {
+    top: 46vw;
+  }
+  .section-5 .aboutMe-content img {
+    height: 350px;
+    width: 350px;
+  }
+  .section-5 .aboutMe-content article {
+    font-size: 3rem;
+  }
+  .section-6 .section-heading {
+    font-size: 7rem;
+  }
+  .section-6 .section-bottom-bg {
+    top: 46vw;
+  }
+}
+
+@media only screen and (max-width: 1600px) and (min-height: 1000px) {
+  .section-1 .floating-bg {
+    top: 48vw;
+  }
+  .section-1 .programming-language {
+    top: 55vw;
+  }
+  .section-1 .landing-page-social {
+    top: 64vw;
+  }
+  .section-2 .section-heading {
+    font-size: 6.5rem;
+  }
+  .section-2 .section-bottom-bg {
+    top: 88vw;
+  }
+  .section-3 .section-heading {
+    font-size: 6.5rem;
+  }
+  .section-3 .section-bottom-bg {
+    top: 65vw;
+  }
+  .section-4 .section-heading {
+    font-size: 6.5rem;
+  }
+  .section-4 ul {
+    top: 22%;
+    font-size: 3rem;
+  }
+  .section-4 .section-bottom-bg {
+    top: 65vw;
+  }
+  .section-5 .section-heading {
+    font-size: 6.5rem;
+  }
+  .section-5 .section-bottom-bg {
+    top: 65vw;
+  }
+  .section-5 .aboutMe-content img {
+    height: 350px;
+    width: 350px;
+  }
+  .section-5 .aboutMe-content article {
+    font-size: 3rem;
+  }
+  .section-6 .section-heading {
+    font-size: 6.5rem;
+  }
+  .section-6 .section-bottom-bg {
+    top: 60vw;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .wb-body {
     background-color: #fff;
@@ -1099,16 +1209,17 @@
     padding: 0rem 1rem;
   }
   .section-2 .section-heading {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .section-2 .floating-bg {
-    top: -135vw;
+    top: -142vw;
   }
   .section-2 .project-card-container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-perspective: 70rem;
             perspective: 70rem;
+    padding: 5rem 2.5rem 15rem 2.5rem;
   }
   .section-2 .project-card-container .project-card {
     width: 30rem;
@@ -1195,17 +1306,17 @@
     margin: 0.5rem;
   }
   .section-2 .section-bottom-bg {
-    top: 88vw;
+    top: 80vw;
   }
   .section-3 {
     padding: 1rem;
   }
   .section-3 .section-heading {
     padding: 3rem 0;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .section-3 .floating-bg {
-    top: -135vw;
+    top: -142vw;
   }
   .section-3 ul {
     -ms-flex-wrap: wrap;
@@ -1215,25 +1326,25 @@
     font-size: 1.5rem;
   }
   .section-3 ul li {
-    -webkit-box-shadow: 1rem 1rem 1.5rem #777;
-            box-shadow: 1rem 1rem 1.5rem #777;
+    -webkit-box-shadow: 1rem 1rem 3rem #bef5cb;
+            box-shadow: 1rem 1rem 3rem #bef5cb;
   }
   .section-3 ul li:hover {
     -webkit-box-shadow: 1rem 1rem 1.5rem #34d058;
             box-shadow: 1rem 1rem 1.5rem #34d058;
   }
   .section-3 .section-bottom-bg {
-    top: 30vw;
+    top: 38vw;
   }
   .section-4 {
     padding: 1rem;
   }
   .section-4 .section-heading {
     padding: 5rem 0;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .section-4 .floating-bg {
-    top: -135vw;
+    top: -142vw;
   }
   .section-4 ul {
     -ms-flex-wrap: wrap;
@@ -1253,28 +1364,31 @@
             box-shadow: 1rem 1rem 1.5rem #34d058;
   }
   .section-4 .section-bottom-bg {
-    top: 30vw;
+    top: 38vw;
   }
   .section-5 .section-heading {
     padding: 0 0;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .section-5 .floating-bg {
-    top: -135vw;
+    top: -142vw;
   }
   .section-5 .aboutMe-content img {
     height: 200px;
     width: 200px;
+    -webkit-transform: translate(70%, 5%);
+            transform: translate(70%, 5%);
   }
   .section-5 .aboutMe-content article {
+    padding: 0 10rem;
     font-size: 2rem;
   }
   .section-5 .section-bottom-bg {
-    top: 30vw;
+    top: 38vw;
   }
   .section-6 .section-heading {
     padding: 0 0;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .section-6 .contact-section-main .contact-social {
     -webkit-transform: translateY(-20%);
@@ -1295,10 +1409,10 @@
     color: #85e89d;
   }
   .section-6 .floating-bg {
-    top: -135vw;
+    top: -142vw;
   }
   .section-6 .section-bottom-bg {
-    top: 30vw;
+    top: 38vw;
   }
   .section-6 footer {
     position: relative;
@@ -1331,33 +1445,52 @@
   .section-1 .landing-page-social i {
     font-size: 2rem;
   }
-}
-
-@media only screen and (max-width: 950px) {
-  .section-1 .section-1-content {
-    font-size: 3rem;
-    top: 10vw;
-    width: 70rem;
+  .section-2 .section-heading {
+    font-size: 3.5rem;
   }
-  .section-1 .section-1-content h3 {
-    font-size: 2rem;
+  .section-2 .section-bottom-bg {
+    top: 110rem;
   }
-  .section-1 .floating-bg {
-    top: 30vw;
+  .section-3 .section-heading {
+    font-size: 3.5rem;
   }
-  .section-1 .programming-language {
-    top: 38vw;
+  .section-3 ul {
+    top: 15rem;
   }
-  .section-1 .programming-language i {
-    padding: 1rem;
-    font-size: 2.4rem;
+  .section-3 .section-bottom-bg {
+    top: 46vw;
   }
-  .section-1 .landing-page-social {
-    top: 44vw;
+  .section-4 .section-heading {
+    font-size: 3.5rem;
   }
-  .section-1 .landing-page-social i {
-    padding: 1rem;
-    font-size: 2rem;
+  .section-4 ul {
+    top: 25%;
+    font-size: 1.5rem;
+  }
+  .section-4 .section-bottom-bg {
+    top: 46vw;
+  }
+  .section-5 .section-heading {
+    font-size: 3.5rem;
+  }
+  .section-5 .section-bottom-bg {
+    top: 46vw;
+  }
+  .section-5 .aboutMe-content img {
+    height: 150px;
+    width: 150px;
+    -webkit-transform: translate(50%, 0%);
+            transform: translate(50%, 0%);
+  }
+  .section-5 .aboutMe-content article {
+    padding: 0 5rem;
+    font-size: 1.5rem;
+  }
+  .section-6 .section-heading {
+    font-size: 3.5rem;
+  }
+  .section-6 .section-bottom-bg {
+    top: 46vw;
   }
 }
 

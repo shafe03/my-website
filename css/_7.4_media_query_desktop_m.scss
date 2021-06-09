@@ -30,4 +30,67 @@
       }
     }
   }
+  .section-2 {
+    .section-heading {
+      font-size: 3.5rem;
+    }
+    .section-bottom-bg {
+      top: 110rem;
+    }
+  }
+
+  .section-3 {
+    .section-heading {
+      font-size: 3.5rem;
+    }
+
+    ul {
+      top: 15rem;
+    }
+    .section-bottom-bg {
+      top: 46vw;
+    }
+  }
+  .section-4 {
+    .section-heading {
+      font-size: 3.5rem;
+    }
+
+    ul {
+      top: 25%;
+      font-size: 1.5rem;
+    }
+
+    .section-bottom-bg {
+      top: 46vw;
+    }
+  }
+
+  .section-5 {
+    .section-heading {
+      font-size: 3.5rem;
+    }
+    .section-bottom-bg {
+      top: 46vw;
+    }
+    .aboutMe-content {
+      img {
+        height: 150px;
+        width: 150px;
+        transform: translate(50%, 0%);
+      }
+      article {
+        padding: 0 5rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .section-6 {
+    .section-heading {
+      font-size: 3.5rem;
+    }
+    .section-bottom-bg {
+      top: 46vw;
+    }
+  }
 }
