@@ -1,5 +1,5 @@
 .section-2 {
-  // height: 100vh;
+  height: 100%;
   width: 100%;
   position: relative;
   background-color: $color-scale-white;
@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 10rem;
 
   & .floating-bg {
     width: 150vw;
@@ -42,7 +41,7 @@
     height: 70%;
     flex-wrap: wrap;
     perspective: 70rem;
-    padding: 10rem 2rem;
+    padding: 20rem 2rem;
     position: relative;
     z-index: 20;
 
@@ -163,6 +162,27 @@
       & i {
         margin: 1rem;
       }
+    }
+  }
+  .section-bottom-bg {
+    width: 150vw;
+    height: 150vw;
+    background-color: rgba($color-scale-green-4, $alpha: 0.8);
+    position: absolute;
+    top: 50.5vw;
+    left: calc(50% - 75vw);
+    border-radius: 45%;
+    animation: rotate 30s infinite, slide_bottom 1s ease-in;
+
+    &::before {
+      content: "";
+      height: 100%;
+      width: 100%;
+      background-color: rgba($color-scale-green-4, $alpha: 0.2);
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 40%;
     }
   }
 }
