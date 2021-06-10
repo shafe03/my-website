@@ -5,7 +5,7 @@
   .section-1 {
     .section-1-content {
       font-size: 4rem;
-      top: 10vw;
+      top: 30vw;
       width: 70rem;
 
       & h3 {
@@ -14,11 +14,11 @@
     }
 
     & .floating-bg {
-      top: 28vw;
+      top: 70vw;
     }
 
     .programming-language {
-      top: 32vw;
+      top: 75rem;
 
       & i {
         font-size: 3rem;
@@ -26,7 +26,7 @@
     }
 
     .landing-page-social {
-      top: 40vw;
+      top: 70rem;
 
       & i {
         font-size: 2rem;
@@ -64,57 +64,90 @@
   }
 
   .section-3 {
+    padding: 2rem 1rem 10rem 1rem;
+    height: 100%;
     .section-heading {
       font-size: 3.5rem;
     }
 
+    .section-heading {
+      transform: translateY(-5rem);
+    }
+
     ul {
-      top: 15rem;
+      flex-direction: column-reverse;
+      padding: 2rem 0;
+      top: 0;
+      position: relative;
+      top: 0rem;
       justify-content: flex-start;
+      padding: 0rem 2rem 5rem 5rem;
       li {
+        padding: 1.5rem;
         font-size: 2rem;
       }
     }
     .section-bottom-bg {
-      top: 1000rem;
+      top: 78rem;
     }
   }
   .section-4 {
-    padding: 1rem;
+    padding: 2rem 1rem 10rem 1rem;
+    height: 100%;
     .section-heading {
       font-size: 3.5rem;
     }
 
-    ul {
-      top: 25%;
-      font-size: 2rem;
-      li {
-        padding: 2rem;
-      }
+    .section-heading {
+      transform: translateY(-5rem);
     }
 
+    ul {
+      flex-direction: column-reverse;
+      padding: 2rem 0;
+      top: 0;
+      position: relative;
+      top: 0rem;
+      justify-content: flex-start;
+      padding: 0rem 2rem 5rem 5rem;
+      li {
+        padding: 1.5rem;
+        font-size: 2rem;
+      }
+    }
     .section-bottom-bg {
-      top: 55rem;
+      top: 130rem;
     }
   }
 
   .section-5 {
-    padding: 2rem;
+    padding: 2rem 1rem 10rem 1rem;
+    height: 100%;
     .section-heading {
       font-size: 3.5rem;
     }
     .section-bottom-bg {
-      top: 55rem;
+      top: 70rem;
     }
     .aboutMe-content {
+      flex-direction: column;
+      top: 0;
+      left: 0;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      transform: translate(0%, 0%);
       img {
-        height: 150px;
-        width: 150px;
-        transform: translate(50%, 0%);
+        margin: 2rem;
+        border-radius: 1rem;
+        height: 300px;
+        width: 300px;
+        transform: translate(0%, 0%);
       }
       article {
-        padding: 0 5rem;
+        padding: 1rem;
         font-size: 1.5rem;
+        transform: translate(0%, 0%);
       }
     }
   }
@@ -125,6 +158,7 @@
     }
 
     .contact-section-main {
+      transform: translateY(-150%);
       .contact-social {
         h2 {
           font-size: 2.5rem;

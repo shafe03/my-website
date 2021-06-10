@@ -57,9 +57,11 @@ month1.addEventListener("click", function () {
   const wbMonth1 = new WinBox({
     title: "January-2021",
     top: 50,
-    left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: 50,
+    left: 50,
+    height: "100%",
+    width: "100%",
     mount: month1__content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -75,7 +77,9 @@ month2.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: month2__content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -91,7 +95,9 @@ month3.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: month3__content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -107,7 +113,9 @@ month4.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: month4__content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -123,7 +131,9 @@ month5.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: month5__content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -139,7 +149,9 @@ month6.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: month6__content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -157,7 +169,9 @@ challenge1.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: 50,
+    height: "100%",
+    width: "100%",
     mount: challenge1_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -173,7 +187,9 @@ challenge2.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge2_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -189,7 +205,9 @@ challenge3.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge3_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -205,7 +223,9 @@ challenge4.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge4_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -221,7 +241,9 @@ challenge5.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge5_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -237,7 +259,9 @@ challenge6.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge6_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -253,7 +277,9 @@ challenge7.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge7_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -269,7 +295,9 @@ challenge8.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge8_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -285,7 +313,9 @@ challenge9.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge9_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -301,7 +331,9 @@ challenge10.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge10_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -317,7 +349,9 @@ challenge11.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge11_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -333,7 +367,9 @@ challenge12.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge12_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -349,7 +385,9 @@ challenge13.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge13_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -365,7 +403,9 @@ challenge14.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge14_Content,
     onfocus: function () {
       this.setBackground("#34d058");
@@ -381,7 +421,9 @@ challenge15.addEventListener("click", function () {
     top: 50,
     left: 50,
     right: 50,
-    bottom: "40%",
+    bottom: "0%",
+    height: "100%",
+    width: "100%",
     mount: challenge15_Content,
     onfocus: function () {
       this.setBackground("#34d058");
