@@ -1,23 +1,9 @@
-@media only screen and (max-width: 550px) {
+@media all and (max-width: 500px) {
   html {
-    font-size: 45% !important;
+    font-size: 45%;
   }
 
   .section-1 {
-    .section-1-content {
-      top: 25vw;
-    }
-
-    & .floating-bg {
-      top: 55vw;
-    }
-
-    .programming-language {
-      top: 70vw;
-    }
-
-    .landing-page-social {
-      top: 80vw;
-    }
+    background-color: black;
   }
 }
