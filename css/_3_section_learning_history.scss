@@ -60,9 +60,16 @@
       background-color: $color-scale-green-3;
       padding: 3rem;
       cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       &:hover {
         background-color: $color-scale-green-4;
         box-shadow: 1rem 1rem 1.5rem $color-scale-green-4;
+      }
+      span {
+        font-weight: 300;
       }
     }
     & .active {
