@@ -1,11 +1,8 @@
-@media all and (min-width: 751px) and (max-width: 950px) {
-  html {
-    font-size: 45%;
-  }
+@media (orientation: portrait) and (max-width: 950px) {
   .section-1 {
     .section-1-content {
       font-size: 4rem;
-      top: 30vw;
+      top: 50vw;
       width: 70rem;
 
       & h3 {
@@ -14,7 +11,7 @@
     }
 
     & .floating-bg {
-      top: 70vw;
+      top: 150vw;
     }
 
     .programming-language {
