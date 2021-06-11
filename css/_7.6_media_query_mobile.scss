@@ -16,10 +16,8 @@
 
   .wb-body {
     background-color: $color-scale-white;
-    font-size: 2rem;
-    padding: 1rem 2rem;
-    position: absolute;
-    z-index: 10000;
+    padding: 1rem 3rem;
+    overflow-y: scroll;
 
     h1,
     h2,
@@ -28,13 +26,13 @@
       font-weight: 500;
       color: $color-scale-green-5;
       text-align: center;
-      padding: 1.5rem;
-      font-size: 2rem;
+      padding: 1rem;
+      font-size: 1.8rem;
       text-transform: uppercase;
     }
 
     p {
-      text-align: center;
+      font-size: 1.2rem;
     }
   }
 
