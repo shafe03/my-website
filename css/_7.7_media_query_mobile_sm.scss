@@ -1,6 +1,6 @@
-@media (orientation: portrait) and (min-width: 350px) {
-  $font-size-h1: 6rem;
-  $font-size-h2_h3: 4rem;
+@media (orientation: portrait) and (max-width: 350px) {
+  $font-size-h1: 2rem;
+  $font-size-h2_h3: 1.5rem;
   $font-size-paragraph: 1.3rem;
 
   @keyframes slide_Top {
@@ -52,25 +52,25 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-size: 6.5rem;
-      top: 45rem;
+      font-size: $font-size-h1;
+      top: 8rem;
       width: 80%;
 
       & h3 {
         padding-top: 2rem;
-        font-size: 5rem;
+        font-size: 1.5rem;
         width: 40%;
       }
     }
 
     & .floating-bg {
-      top: 100rem;
+      top: 20rem;
     }
 
     .programming-language {
       width: 30rem;
       flex-wrap: wrap;
-      top: 110rem;
+      top: 0rem;
       justify-content: center;
       align-items: center;
 
@@ -82,7 +82,7 @@
 
     .landing-page-social {
       display: flex;
-      top: 145rem;
+      top: 0rem;
 
       & i {
         padding: 1rem;
@@ -93,6 +93,7 @@
   .section-2 {
     height: auto;
     .section-heading {
+      color: black;
       font-size: $font-size-h1;
     }
 
@@ -101,17 +102,17 @@
     }
     .project-card-container {
       flex-direction: column;
-      padding: 10rem 2rem 40rem 2rem;
+
       .project-card {
-        height: 50rem;
-        width: 50rem;
+        height: 25rem;
+        width: 20rem;
         margin: 5rem 0rem;
         .project-img {
-          width: 40rem;
-          height: 40rem;
+          width: 8rem;
+          height: 8rem;
         }
         .project-card-heading {
-          font-size: 3rem;
+          font-size: 0.5rem;
         }
         .project-details {
           width: 100%;
