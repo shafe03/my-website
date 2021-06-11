@@ -1555,131 +1555,6 @@
   }
 }
 
-@media (orientation: portrait) and (max-width: 1150px) and (min-height: 1100px) {
-  html {
-    font-size: 48%;
-  }
-  .section-1 .section-1-content {
-    font-size: 4rem;
-    top: 10vw;
-    width: 70rem;
-  }
-  .section-1 .section-1-content h3 {
-    font-size: 3rem;
-  }
-  .section-1 .floating-bg {
-    top: 28vw;
-  }
-  .section-1 .programming-language {
-    top: 32vw;
-  }
-  .section-1 .programming-language i {
-    font-size: 3rem;
-  }
-  .section-1 .landing-page-social {
-    top: 40vw;
-  }
-  .section-1 .landing-page-social i {
-    font-size: 2rem;
-  }
-  .section-2 {
-    height: auto;
-  }
-  .section-2 .section-heading {
-    font-size: 3.5rem;
-  }
-  .section-2 .project-card-container {
-    padding: 5rem 2.5rem 15rem 2.5rem;
-  }
-  .section-2 .project-card-container .project-card {
-    width: 30rem;
-  }
-  .section-2 .project-card-container .project-card .project-img {
-    width: 25rem;
-    height: 25rem;
-  }
-  .section-2 .project-card-container .project-card .project-card-heading {
-    font-size: 2rem;
-  }
-  .section-2 .project-card-container .project-card .project-details {
-    font-size: 2rem;
-  }
-  .section-2 .project-card-container .project-card .project-details .used-language {
-    top: 25rem;
-  }
-  .section-2 .section-bottom-bg {
-    top: 158rem;
-  }
-  .section-3 .section-heading {
-    font-size: 3.5rem;
-  }
-  .section-3 ul {
-    top: 15rem;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
-  .section-3 ul li {
-    font-size: 2rem;
-  }
-  .section-3 .section-bottom-bg {
-    top: 55rem;
-  }
-  .section-4 {
-    padding: 1rem;
-  }
-  .section-4 .section-heading {
-    font-size: 3.5rem;
-  }
-  .section-4 ul {
-    top: 25%;
-    font-size: 2rem;
-  }
-  .section-4 ul li {
-    padding: 2rem;
-  }
-  .section-4 .section-bottom-bg {
-    top: 55rem;
-  }
-  .section-5 {
-    padding: 2rem;
-  }
-  .section-5 .section-heading {
-    font-size: 3.5rem;
-  }
-  .section-5 .section-bottom-bg {
-    top: 55rem;
-  }
-  .section-5 .aboutMe-content img {
-    height: 150px;
-    width: 150px;
-    -webkit-transform: translate(50%, 0%);
-            transform: translate(50%, 0%);
-  }
-  .section-5 .aboutMe-content article {
-    padding: 0 5rem;
-    font-size: 1.5rem;
-  }
-  .section-6 {
-    padding: 2rem 0 5rem 0;
-  }
-  .section-6 .section-heading {
-    font-size: 3.5rem;
-  }
-  .section-6 .contact-section-main .contact-social h2 {
-    font-size: 2.5rem;
-  }
-  .section-6 .contact-section-main .contact-social i {
-    font-size: 3rem;
-  }
-  .section-6 .section-bottom-bg {
-    top: 55rem;
-  }
-  .section-6 footer {
-    font-size: 1rem;
-  }
-}
-
 @media (orientation: portrait) and (max-width: 950px) {
   .section-1 .section-1-content {
     font-size: 4rem;
@@ -1861,7 +1736,188 @@
   }
 }
 
-@media (orientation: portrait) and (min-width: 351px) and (max-width: 750px) {
+@media (orientation: portrait) and (max-width: 770px) {
+  .section-1 .section-1-content {
+    font-size: 4rem;
+    top: 50vw;
+    width: 70rem;
+  }
+  .section-1 .section-1-content h3 {
+    font-size: 3rem;
+  }
+  .section-1 .floating-bg {
+    top: 150vw;
+  }
+  .section-1 .programming-language {
+    top: 75rem;
+  }
+  .section-1 .programming-language i {
+    font-size: 3rem;
+  }
+  .section-1 .landing-page-social {
+    top: 70rem;
+  }
+  .section-1 .landing-page-social i {
+    font-size: 2rem;
+  }
+  .section-2 {
+    height: auto;
+  }
+  .section-2 .section-heading {
+    font-size: 3.5rem;
+  }
+  .section-2 .project-card-container {
+    padding: 5rem 2.5rem 15rem 2.5rem;
+  }
+  .section-2 .project-card-container .project-card {
+    width: 30rem;
+  }
+  .section-2 .project-card-container .project-card .project-img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .section-2 .project-card-container .project-card .project-card-heading {
+    font-size: 2rem;
+  }
+  .section-2 .project-card-container .project-card .project-details {
+    font-size: 2rem;
+  }
+  .section-2 .project-card-container .project-card .project-details .used-language {
+    top: 25rem;
+  }
+  .section-2 .section-bottom-bg {
+    top: 158rem;
+  }
+  .section-3 {
+    padding: 2rem 1rem 10rem 1rem;
+    height: 100%;
+  }
+  .section-3 .section-heading {
+    font-size: 3.5rem;
+  }
+  .section-3 .section-heading {
+    -webkit-transform: translateY(-5rem);
+            transform: translateY(-5rem);
+  }
+  .section-3 ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 2rem 0;
+    top: 0;
+    position: relative;
+    top: 0rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0rem 2rem 5rem 5rem;
+  }
+  .section-3 ul li {
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+  .section-3 .section-bottom-bg {
+    top: 78rem;
+  }
+  .section-4 {
+    padding: 2rem 1rem 10rem 1rem;
+    height: 100%;
+  }
+  .section-4 .section-heading {
+    font-size: 3.5rem;
+  }
+  .section-4 .section-heading {
+    -webkit-transform: translateY(-5rem);
+            transform: translateY(-5rem);
+  }
+  .section-4 ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 2rem 0;
+    top: 0;
+    position: relative;
+    top: 0rem;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 0rem 2rem 5rem 5rem;
+  }
+  .section-4 ul li {
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+  .section-4 .section-bottom-bg {
+    top: 130rem;
+  }
+  .section-5 {
+    padding: 2rem 1rem 10rem 1rem;
+    height: 100%;
+  }
+  .section-5 .section-heading {
+    font-size: 3.5rem;
+  }
+  .section-5 .section-bottom-bg {
+    top: 70rem;
+  }
+  .section-5 .aboutMe-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 0;
+    left: 0;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  .section-5 .aboutMe-content img {
+    margin: 2rem;
+    border-radius: 1rem;
+    height: 300px;
+    width: 300px;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  .section-5 .aboutMe-content article {
+    padding: 1rem;
+    font-size: 1.5rem;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  .section-6 {
+    padding: 2rem 0 5rem 0;
+  }
+  .section-6 .section-heading {
+    font-size: 3.5rem;
+  }
+  .section-6 .contact-section-main {
+    -webkit-transform: translateY(-150%);
+            transform: translateY(-150%);
+  }
+  .section-6 .contact-section-main .contact-social h2 {
+    font-size: 2.5rem;
+  }
+  .section-6 .contact-section-main .contact-social i {
+    font-size: 3rem;
+  }
+  .section-6 .section-bottom-bg {
+    top: 55rem;
+  }
+  .section-6 footer {
+    font-size: 1rem;
+  }
+}
+
+@media (orientation: portrait) and (min-width: 351px) and (max-width: 560px) {
   @-webkit-keyframes slide_Top {
     0% {
       top: 300rem;
@@ -2395,7 +2451,7 @@
     margin: 1rem;
   }
   .section-4 .section-bottom-bg {
-    top: 110rem;
+    top: 120rem;
   }
   .section-5 {
     padding: 4rem 1rem 10rem 1rem;
