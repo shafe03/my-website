@@ -1,4 +1,4 @@
-@media (orientation: portrait) and (max-width: 770px) {
+@media (orientation: portrait) and (min-width: 551px) and (max-width: 770px) {
   .section-1 {
     .section-1-content {
       font-size: 4rem;
@@ -11,7 +11,7 @@
     }
 
     & .floating-bg {
-      top: 150vw;
+      top: 80vw;
     }
 
     .programming-language {
@@ -56,6 +56,7 @@
       }
     }
     .section-bottom-bg {
+      display: none;
       top: 158rem;
     }
   }
@@ -85,6 +86,7 @@
       }
     }
     .section-bottom-bg {
+      display: none;
       top: 78rem;
     }
   }
@@ -113,6 +115,7 @@
       }
     }
     .section-bottom-bg {
+      display: none;
       top: 130rem;
     }
   }
@@ -167,10 +170,12 @@
     }
 
     .section-bottom-bg {
+      display: none;
       top: 55rem;
     }
 
     footer {
+      color: #777;
       font-size: 1rem;
     }
   }

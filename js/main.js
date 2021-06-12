@@ -55,7 +55,7 @@ document.querySelectorAll(".btn-project-details").forEach((btn) => {
 
 month1.addEventListener("click", function () {
   const wbMonth1 = new WinBox({
-    title: "January-2021",
+    title: "January - 2021",
     top: 50,
     right: 50,
     bottom: 50,
@@ -73,7 +73,7 @@ month1.addEventListener("click", function () {
 });
 month2.addEventListener("click", function () {
   const wbMonth2 = new WinBox({
-    title: "January-2021",
+    title: "February - 2021",
     top: 50,
     left: 50,
     right: 50,
@@ -91,7 +91,7 @@ month2.addEventListener("click", function () {
 });
 month3.addEventListener("click", function () {
   const wbMonth3 = new WinBox({
-    title: "January-2021",
+    title: "March - 2021",
     top: 50,
     left: 50,
     right: 50,
@@ -109,7 +109,7 @@ month3.addEventListener("click", function () {
 });
 month4.addEventListener("click", function () {
   const wbMonth4 = new WinBox({
-    title: "January-2021",
+    title: "April - 2021",
     top: 50,
     left: 50,
     right: 50,
@@ -127,7 +127,7 @@ month4.addEventListener("click", function () {
 });
 month5.addEventListener("click", function () {
   const wbMonth5 = new WinBox({
-    title: "January-2021",
+    title: "May - 2021",
     top: 50,
     left: 50,
     right: 50,
@@ -145,7 +145,7 @@ month5.addEventListener("click", function () {
 });
 month6.addEventListener("click", function () {
   const wbMonth6 = new WinBox({
-    title: "January-2021",
+    title: "June - 2021",
     top: 50,
     left: 50,
     right: 50,
@@ -165,7 +165,7 @@ month6.addEventListener("click", function () {
 // winbox for challenges section
 challenge1.addEventListener("click", function () {
   const wbChallenge1 = new WinBox({
-    title: "Challenge1",
+    title: "Challenge - 1 (CSS) ",
     top: 50,
     left: 50,
     right: 50,
@@ -183,7 +183,7 @@ challenge1.addEventListener("click", function () {
 });
 challenge2.addEventListener("click", function () {
   const wbChallenge2 = new WinBox({
-    title: "Challenge2",
+    title: "Challenge - 2",
     top: 50,
     left: 50,
     right: 50,
@@ -201,7 +201,7 @@ challenge2.addEventListener("click", function () {
 });
 challenge3.addEventListener("click", function () {
   const wbChallenge3 = new WinBox({
-    title: "Challenge3",
+    title: "Challenge - 3",
     top: 50,
     left: 50,
     right: 50,
@@ -219,7 +219,7 @@ challenge3.addEventListener("click", function () {
 });
 challenge4.addEventListener("click", function () {
   const wbChallenge4 = new WinBox({
-    title: "Challenge4",
+    title: "Challenge - 4",
     top: 50,
     left: 50,
     right: 50,
@@ -237,7 +237,7 @@ challenge4.addEventListener("click", function () {
 });
 challenge5.addEventListener("click", function () {
   const wbChallenge5 = new WinBox({
-    title: "Challenge5",
+    title: "Challenge - 5",
     top: 50,
     left: 50,
     right: 50,
@@ -255,7 +255,7 @@ challenge5.addEventListener("click", function () {
 });
 challenge6.addEventListener("click", function () {
   const wbChallenge6 = new WinBox({
-    title: "Challenge6",
+    title: "Challenge - 6",
     top: 50,
     left: 50,
     right: 50,
@@ -273,7 +273,7 @@ challenge6.addEventListener("click", function () {
 });
 challenge7.addEventListener("click", function () {
   const wbChallenge7 = new WinBox({
-    title: "Challenge7",
+    title: "Challenge - 7",
     top: 50,
     left: 50,
     right: 50,
@@ -291,7 +291,7 @@ challenge7.addEventListener("click", function () {
 });
 challenge8.addEventListener("click", function () {
   const wbChallenge8 = new WinBox({
-    title: "Challenge8",
+    title: "Challenge - 8",
     top: 50,
     left: 50,
     right: 50,
@@ -309,7 +309,7 @@ challenge8.addEventListener("click", function () {
 });
 challenge9.addEventListener("click", function () {
   const wbChallenge9 = new WinBox({
-    title: "Challenge9",
+    title: "Challenge - 9",
     top: 50,
     left: 50,
     right: 50,
@@ -327,7 +327,7 @@ challenge9.addEventListener("click", function () {
 });
 challenge10.addEventListener("click", function () {
   const wbChallenge10 = new WinBox({
-    title: "Challenge10",
+    title: "Challenge - 10",
     top: 50,
     left: 50,
     right: 50,
@@ -345,7 +345,7 @@ challenge10.addEventListener("click", function () {
 });
 challenge11.addEventListener("click", function () {
   const wbChallenge11 = new WinBox({
-    title: "Challenge11",
+    title: "Challenge - 11",
     top: 50,
     left: 50,
     right: 50,
@@ -363,7 +363,7 @@ challenge11.addEventListener("click", function () {
 });
 challenge12.addEventListener("click", function () {
   const wbChallenge12 = new WinBox({
-    title: "Challenge12",
+    title: "Challenge - 12",
     top: 50,
     left: 50,
     right: 50,
@@ -381,7 +381,7 @@ challenge12.addEventListener("click", function () {
 });
 challenge13.addEventListener("click", function () {
   const wbChallenge13 = new WinBox({
-    title: "Challenge13",
+    title: "Challenge - 13",
     top: 50,
     left: 50,
     right: 50,
@@ -399,7 +399,7 @@ challenge13.addEventListener("click", function () {
 });
 challenge14.addEventListener("click", function () {
   const wbChallenge14 = new WinBox({
-    title: "Challenge14",
+    title: "Challenge - 14",
     top: 50,
     left: 50,
     right: 50,
@@ -417,7 +417,7 @@ challenge14.addEventListener("click", function () {
 });
 challenge15.addEventListener("click", function () {
   const wbChallenge15 = new WinBox({
-    title: "Challenge15",
+    title: "Challenge - 15",
     top: 50,
     left: 50,
     right: 50,
