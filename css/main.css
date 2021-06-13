@@ -2196,7 +2196,7 @@
     width: 22rem;
   }
   .section-2 .project-card-container .project-card .project-card-heading {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .section-2 .project-card-container .project-card .project-details {
     width: 100%;
@@ -2206,7 +2206,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .section-2 .project-card-container .project-card .project-details .used-language {
     -ms-flex-item-align: center;
